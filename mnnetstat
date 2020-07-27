@@ -3,17 +3,18 @@ import paramiko
 
 hostname = "192.168.0.37"
 username = "sshd"
-password = "PASSWORD"
+password = "REDred555"
 
 commands = [
-"netstat -tun | grep -v '127.0.0.1\|192.168.0.15' | awk '{print $6}' | sort | uniq -c | sort -n | grep ESTABLISHED | awk '{print $1}'"
+    "netstat -tun | grep -v '127.0.0.1' | awk '{print $6}' |"
+    " sort | uniq -c | sort -n | grep ESTABLISHED | awk '{print $1}'"
 ]
 
-#monitor = [
-#"netstat -tun | grep -v '127.0.0.1\|192.168.0.15' | uniq -c | sort -n"
-#]
+# monitor = [
+# "netstat -tun | grep -v '127.0.0.1\|192.168.0.15' | uniq -c | sort -n"
+# ]
 
-actions = ("sudo poweroff")
+actions = ("uname")
 
 # initialize the SSH client
 client = paramiko.SSHClient()
@@ -26,14 +27,19 @@ except IndexError:
     exit()
 # execute the commands
 for command in commands:
-#    print("="*50, command, "="*50)
+    # print("="*50, command, "="*50)
     stdin, stdout, stderr = client.exec_command(command)
     conn = int(stdout.read().decode())
-    if conn < 3:
-        print("There are less than ({})".format(conn),"connections. This program will now deploy: <{}>".format(actions), "command using SSH."),
+    if (conn < 5):
+        print("Less than ({})".format(conn), "connections."
+              " Deploy: <{}>".format(actions), "command using SSH."),
         stdin, stdout, stderr = client.exec_command(actions)
-    else:
-        print("There are more than ({})".format(conn),"connections. This log for temporarily monitoring only and can be removed later")
+        print(stdout.read().decode())
+    elif (conn > 3):
+        print("More than ({})".format(conn), "connections."
+              " This program will be terminated")
     err = stderr.read().decode()
     if err:
         print(err)
+
+client.close()
