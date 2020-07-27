@@ -21,8 +21,9 @@ if __name__ == '__main__':
     for each in current_ip_address:
         if ping_ip(each):
             print(f"{each} is available.\n")
-            import netstat
-#            exec("netstat.py")
-#            exec(open("/home/pi/scripts/netstat.py").read())
+            import deepinspection
+#            exec("deepinspection.py")
+#            exec(open("/home/pi/scripts/deepinspection.py").read())
         else:
             print(f"{each} is not available.")
+        
