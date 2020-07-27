@@ -3,7 +3,7 @@ import paramiko
 
 hostname = "192.168.0.37"
 username = "sshd"
-password = "REDred555"
+password = "PASSWORD"
 
 commands = [
 "netstat -tun | grep -v '127.0.0.1\|192.168.0.15' | awk '{print $6}' | sort | uniq -c | sort -n | grep ESTABLISHED | awk '{print $1}'"
