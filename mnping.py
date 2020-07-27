@@ -20,7 +20,7 @@ if __name__ == '__main__':
         if ping_ip(each):
             print(f"{each} is available")
             import netstat
-#            exec("netstat.py")
-#            exec(open("/home/pi/scripts/netstat.py").read())
+#            exec("mnnetstat.py")
+#            exec(open("/home/pi/scripts/mnnetstat.py").read())
         else:
             print(f"{each} is not available")
