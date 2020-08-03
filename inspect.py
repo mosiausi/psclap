@@ -3,7 +3,7 @@ import subprocess
 import platform
 
 current_ip_address = ['192.168.0.37']
-
+#test
 
 def ping_ip(current_ip_address):
     try:
