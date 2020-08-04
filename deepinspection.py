@@ -34,3 +34,6 @@ for command in commands:
     elif conn > 3:
         print("More than ({})".format(conn), "connections."
               " This program will be terminated")
+# Clean up elements
+client.close()
+del client, stdin, stdout, stderr
