@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/build-passing-brightgreen) ![](https://img.shields.io/badge/python-3.7 | 3.8-blue)
+
+
 # PowerManagement
 # This program devided into two Python script
 
