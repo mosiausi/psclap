@@ -8,8 +8,10 @@ Although the manufacturer claims for standby feature - this never really works!
 I wanted a simply program on external device which will be able to turn off inactive device
 
 Installation:
-1. From your local machine, download the program: ```git clone https://github.com/mosiausi/psclap```
+1. From your local machine, download the program: 
+```git clone https://github.com/mosiausi/psclap```
 2. At ```sessiondb.txt``` file, change the hostname/username/password for your desired environment
 note: do not change the order of ```sessiondb.txt```
 3. add to your crontab:
+
 ```*/30 10-19 * * * python3 /path/scripts/sladpi.py > /path/psclap.log 2>&1```
