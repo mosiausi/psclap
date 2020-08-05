@@ -1,7 +1,7 @@
 ![GitHub](https://img.shields.io/github/license/mosiausi/psclap) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/mosiausi/psclap) ![GitHub Release Date](https://img.shields.io/github/release-date/mosiausi/psclap) <br> ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django)
 ![GitHub repo size](https://img.shields.io/github/repo-size/mosiausi/psclap) ![GitHub pull requests](https://img.shields.io/github/issues-pr/mosiausi/psclap) ![GitHub All Releases](https://img.shields.io/github/downloads/mosiausi/psclap/total) ![GitHub issues](https://img.shields.io/github/issues/mosiausi/psclap) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/mosiausi/psclap) ![GitHub last commit](https://img.shields.io/github/last-commit/mosiausi/psclap)
 
-For any question or suggestion, feel free to contact me: [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/moshikon/)
+For any question or suggestion, please feel free to contact me: [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/moshikon/)
 &nbsp;
 
 # Prob Sampler Closed Loop Automation Controller (psclap)
