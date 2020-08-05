@@ -31,7 +31,7 @@ for command in commands:
               " Deploy: <{}>".format(actions), "command using SSH."),
         stdin, stdout, stderr = client.exec_command(actions)
         print(stdout.read().decode())
-    elif conn > 3:
+    elif conn > 5:
         print("More than ({})".format(conn), "connections."
               " This program will be terminated")
 # Clean up elements
