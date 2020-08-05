@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/build-development-orange) ![](https://img.shields.io/badge/python-3.7|3.8-blue) ![](https://img.shields.io/badge/license-nayman-yellowgreen)
 
-# Prob Sampler Closed Loop Automated Controller (psclap)
+# Prob Sampler Closed Loop Automation Controller (psclap)
 
 Use case: poweroff MacOS/Linux-GNU devices which are not in use for 30 minutes based on active network sessions
 Reason: I found that my NAS (which used for streaming only) mostly unused. 
