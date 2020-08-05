@@ -1,10 +1,16 @@
 ![](https://img.shields.io/badge/build-development-orange) ![](https://img.shields.io/badge/python-3.7|3.8-blue) ![](https://img.shields.io/badge/license-nayman-yellowgreen)
 
+# Prob Sampler Closed Loop Automated Controller (psclap)
 
-# PowerManagement
-# This program devided into two Python script
+Use case: poweroff MacOS/Linux-GNU devices which are not in use for 30 minutes based on active network sessions
+Reason: I found that my NAS (which used for streaming only) mostly unused. 
+Although the manufacturer claims for standby feature - this never really works!
+I wanted a simply program on external device which will be able to turn off inactive device
 
-# 1. mnping.py send a smal ICMP packet to check if the server is up, if not, the program will be terminated.
-# 2. mnping will execute mnnetstat.py if server is up (pingable)
-# 3. mnnetstat.py will connect with SSH to the server and check the number of established connections. if more than (x) it will be terminated
-# - if less than (x), the program will execute poweroff
+Installation:
+1. From your local machine, download the program: ```git clone https://github.com/mosiausi/psclap```
+2. At ```sessiondb.txt``` file, change the hostname/username/password for your desired environment
+note: do not change the order of ```sessiondb.txt```
+3. add to your crontab:
+
+```*/30 10-19 * * * python3 /path/scripts/sladpi.py > /path/psclap.log 2>&1```
