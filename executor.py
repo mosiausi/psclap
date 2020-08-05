@@ -8,7 +8,7 @@ commands = [
     " sort | uniq -c | sort -n | grep ESTABLISHED | awk '{print $1}'"
 ]
 
-actions = 'df'
+actions = 'poweroff'
 
 # initialize the SSH client
 client = paramiko.SSHClient()
