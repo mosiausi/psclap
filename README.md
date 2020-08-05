@@ -1,4 +1,4 @@
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/mosiausi/psclap) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django) ![GitHub pull requests](https://img.shields.io/github/issues-pr/mosiausi/psclap) ![GitHub issues](https://img.shields.io/github/issues/mosiausi/psclap) 
+![GitHub](https://img.shields.io/github/license/mosiausi/psclap) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/mosiausi/psclap) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django) ![GitHub pull requests](https://img.shields.io/github/issues-pr/mosiausi/psclap) ![GitHub issues](https://img.shields.io/github/issues/mosiausi/psclap) 
 
 For any question or suggestion, feel free to contact me: [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/moshikon/)
 &nbsp;
