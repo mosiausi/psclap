@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/build-passing-brightgreen) ![](https://img.shields.io/badge/python-3.7|3.8-blue) ![](https://img.shields.io/badge/license-nayman-yellowgreen)
+![](https://img.shields.io/badge/build-development-orange) ![](https://img.shields.io/badge/python-3.7|3.8-blue) ![](https://img.shields.io/badge/license-nayman-yellowgreen)
 
 
 # PowerManagement
