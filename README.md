@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/build-development-orange) ![](https://img.shields.io/badge/python-3.7|3.8-blue) ![](https://img.shields.io/badge/license-nayman-yellowgreen)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/mosiausi/psclap) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django) ![GitHub pull requests](https://img.shields.io/github/issues-pr/mosiausi/psclap) ![GitHub issues](https://img.shields.io/github/issues/mosiausi/psclap) 
 
 For any question or suggestion, feel free to contact me: [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/moshikon/)
 &nbsp;
