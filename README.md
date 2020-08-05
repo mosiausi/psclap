@@ -9,9 +9,14 @@ I wanted a simply program on external device which will be able to turn off inac
 
 Installation:
 1. From your local machine, download the program: 
+
 ```git clone https://github.com/mosiausi/psclap```
+
+
 2. At ```sessiondb.txt``` file, change the hostname/username/password for your desired environment
 note: do not change the order of ```sessiondb.txt```
+
+
 3. add to your crontab:
 
 ```*/30 10-19 * * * python3 /path/scripts/sladpi.py > /path/psclap.log 2>&1```
