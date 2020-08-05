@@ -14,6 +14,7 @@ Installation:
 
 
 2. At ```sessiondb.txt``` file, change the hostname/username/password for your desired environment
+
 note: do not change the order of ```sessiondb.txt```
 
 
