@@ -17,7 +17,6 @@ I wanted a simpl program on external device which will be able to turn off an in
 
 # Roadmap
     Q32020
-        - Configurator for device parameters (hostname, username and password)
         - Encrypted password
     Q42020
         - Costume scheduler 
@@ -26,11 +25,23 @@ I wanted a simpl program on external device which will be able to turn off an in
 1. From your local machine, download or clone the program: 
 
     ```git clone https://github.com/mosiausi/psclap```
-2. At ```sessiondb.txt``` file, change the hostname/username/password for your desired environment
+2. Enter to the psclap directory and run the setup (crucial)
 
-    Note: do not change the order of ```sessiondb.txt```
+    ```cd /[path of psclap]```
+3. run the setup.py from the local directory of psclap
+
+    ```python3 setup.py```
 3. add to your crontab:
 
     ```*/30 10-19 * * * python3 /path/scripts/sladpi.py > /path/psclap.log 2>&1```
+4. add to your crontab:
 
 I hope this little program will serve you well.
+
+# Release notes:
+
+1R1.2 7/8/2020
+    setup.py: Adding an install procedure for this program.
+
+1R1.1 - 5/8/2020
+    Initial Release
