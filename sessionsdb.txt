@@ -1,3 +1,4 @@
 hostname
 username
 password
+concurrent_sessions
