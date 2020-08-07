@@ -40,7 +40,7 @@ I hope this little program will serve you well.
 
 # Release notes:
 
-1R1.2 7/8/2020
+1R1.2 7/8/2020<BR>
     setup.py: Adding an install procedure for this program.
 
 1R1.1 - 5/8/2020
