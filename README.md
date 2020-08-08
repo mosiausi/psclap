@@ -7,13 +7,13 @@
 # Prob Sampler Closed Loop Automation Controller (psclap)
 ---------------------------------------------------------
 Use case: poweroff MacOS/Linux-GNU/Unix devices which are not in use for 30 minutes based on active network sessions
-Reason: I wanted my NAS to turn off when it's not in use for some period of time. 
-Although the manufacturers claims for standby feature - this never really works!
-I wanted a simpl program on external device which will be able to turn off an inactive device
+Reason: I wanted my NAS to turn off when it's not in use after a period of time. 
+Although the manufacturers claim they provide a standby feature - this never really works!
+I wanted a simple program on an external device which controls turning off an inactive device
 
 # Presequences
     - Python3.7+ with paramiko
-    - Prob to install this program. in my case Raspberry Pi Zero W
+    - A probe to install this program on. In my case Raspberry Pi Zero W
 
 # Roadmap
     Q32020
