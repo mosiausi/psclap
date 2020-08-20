@@ -13,13 +13,7 @@ I wanted a simple program on an external device which controls turning off an in
 
 # Presequences
     - Python3.7+ with paramiko
-    - A probe to install this program on. In my case Raspberry Pi Zero W
-
-# Roadmap
-    Q32020
-        - Encrypted password
-    Q42020
-        - Costume scheduler 
+    - A probe to install this program on. In my case Raspberry Pi Zero W 
 
 # Installation:
 1. From your local machine, download or clone the program: 
